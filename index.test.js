@@ -1,6 +1,5 @@
 const app = require("./index");
 const request = require("supertest");
-//import { sum } from "./index";
 
 describe("API integration tests", () => {
   it("GET /sum - should add two numbers", async () => {
